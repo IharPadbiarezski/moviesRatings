@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 80%;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.error {
+	padding: 5px;
+	border-radius: 5px;
+	background: #d64747;
+	margin-bottom: 10px;
+}
+
+.movie {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border: 1px solid #262626;
+	border-radius: 5px;
+	margin-bottom: 2px;
+	padding: 5px;
+}
+
+.stars {
+	display: block;
+}
+
+.star {
+	cursor: pointer;
+}
+
+.form {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.checked {
+	color: orange;
+}
+
+.hover {
+	color: orange !important;
+}
